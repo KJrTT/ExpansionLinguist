@@ -1,2 +1,8 @@
 [project.scripts]
 app = "app:app"
+
+[tool.vercel]
+install = ["pip install -r requirements.txt"]
+
+[tool.vercel.build]
+command = "echo 'Build completed'"
