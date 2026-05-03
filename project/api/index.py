@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-
 from app.routers import users, admin, words
 
 app = FastAPI(title="WordTracker API")
